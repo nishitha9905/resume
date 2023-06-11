@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Basic Form</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+            <legend>Personal Details</legend>
+            <div>
+                <label>FirstName:</label>
+                <input type="text" />
+            </div> <br/>
+            <div>
+                <label>MiddleName:</label>
+                <input type="text" />
+            </div> <br/>
+            <div>
+                <label>LastName:</label>
+                <input type="text" />
+            </div> <br/>
+            <div>
+                <label for="Course">Course:</label>
+                <select name="Course" id="Course">
+                    <option value="Course">Course</option>
+                    <option value="BCA">BCA</option>
+                    <option value="BBA">BBA</option>
+                    <option value="BTech">B.Tech</option>
+                    <option value="MCA">MCA</option>
+                    <option value="MBA">MBA</option>
+                    <option value="M.Tech">M.Tech</option>
+                </select>
+            </div> <br/>
+            <div>
+                <label for="Gender">Gender:</label> <br/>
+                <input type="radio" value="male" name="gender"/> male <br/>
+                <input type="radio" value="Female"  name="gender"/>  Female<br/>
+                <input type="radio" value="other"  name="gender"/> Other<br/>
+            </div> <br/>
+            <div>
+                <label for="date" >DOB</label>
+                <input name="date" id="date" type="datetime-local"/>
+            </div> <br/>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="text" value="+91" size="2" disabled />
+                <input name="phone" id="phone" type="tel">
+            </div> <br/>
+            <div>
+                <label for="Address" >Address</label><br/>
+                <textarea id="Address" name="Address" rows="4" cols="100"></textarea>
+            </div> <br/>
+            <div>
+                <label for="email">Email:</label>
+                <input name='email' id="email"type="email"/>
+            </div> <br/>
+            <div>
+                <label for="password">Password:</label>
+                <input name="password" id="password" type="password"/>
+            </div> <br/>
+            <div>
+                <label for="retype-pswd">Re-type password:</label>
+                <input name="retype-pswd" id="retype-pswd" type="password"/>
+            </div> <br/>
+            <div>
+                <input type="checkbox" name="checkbox" id="checkbox" color="#176086"/>
+                <span>Agree to terms and conditions</span>
+            </div> <br/>
+            <div>
+                Choose File <input type="file" /> 
+            </div> <br/>
+            <div>
+                <label for="color">Choose Color</label>
+                <input type="color" id="color" name="color"/>
+            </div> <br/>
+            <input type="reset" /> 
+            <input type="submit"/> 
+            </fieldset>
+        </form>
+    </body>
+</html>
